@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 df=pd.read_excel("DfPractice.xlsx")
 df.fillna(0,inplace=True)
 df["Amount"]=df["p_price"]*df["unit_purchased"]
